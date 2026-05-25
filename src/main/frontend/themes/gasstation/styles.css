@@ -1,0 +1,78 @@
+/* Header bar */
+header[slot="navbar"] {
+  background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+header[slot="navbar"] h1 {
+  color: white !important;
+}
+
+/* Drawer toggle button */
+header[slot="navbar"] vaadin-drawer-toggle {
+  color: white;
+}
+
+/* Sidebar */
+[slot="drawer"] {
+  background: #fafafa;
+}
+
+[slot="drawer"] .side-nav vaadin-side-nav-item[active] {
+  background: #e8eaf6;
+  color: #1a237e;
+  border-radius: 4px;
+}
+
+/* Cards for form sections */
+.form-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+/* Dashboard cards */
+.dashboard-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+/* Content area padding */
+.content-section {
+  padding: 24px;
+}
+
+/* Buttons */
+.primary-button {
+  background: #1a237e;
+  color: white;
+}
+
+.danger-button {
+  background: #c62828;
+  color: white;
+}
+
+/* Page titles */
+.page-title {
+  margin-bottom: 16px;
+  color: #1a237e;
+}
+
+.section-title {
+  color: #37474f;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
